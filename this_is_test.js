@@ -7,11 +7,13 @@ app.get('/en/quide/' , (req , res) => {
 
 
 let person1 = {
+    hey u
     id:1,
     name:"reza",
     "mobile":091231212
 }
 let person2 = {
+
     id:2,
     name:"shayan",
     "mobile":192839123
@@ -40,6 +42,7 @@ if (req === 3) {
     res.send(person3)
     
 }
+chnage 
 
 
 })
